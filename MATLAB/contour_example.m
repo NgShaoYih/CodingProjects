@@ -1,0 +1,1 @@
+%% R4.5. Contour example.  Ref:  COSC2500 blackboarda = 1.1;  b = 0.4;  d = 0.1;  g = 0.4;  x = 0:0.1:30;y = 0:0.1:12;[X,Y] = meshgrid(x,y);  H = b*Y - a*log(Y) + d*X - g*log(X);contour(X,Y,H)colorbar, colormap bonetitle("Contours of LV equations",'FontSize',20)xlabel('x','FontSize',16)ylabel('y','FontSize',16)
